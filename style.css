@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+    *{
+      font-family: 'Red Hat Display', sans-serif;
+      font-size: 16px;
+    }
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center;
+      background-image:url(./images/pattern-background-desktop.svg); 
+      background-color: hsl(225, 100%, 94%);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size:100% 50%;
+      min-height: 100vh;
+      
+      
+    }
+    .img-container{
+     height: 130px;
+    }
+    img{
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+     
+     
+    }
+    .main-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 16em;
+      background-color: hsl(0, 0%, 100%);
+      text-align:center;
+      padding: 20px 20px 30px 20px ;
+      margin-bottom: 10px;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+    }
+    #text{
+      width:15em;
+      
+    }
+    #text h1{
+      font-size: 1.2em;
+      font-weight: 900;
+      color: hsl(223, 47%, 23%);
+    }
+    #text p{
+      line-height: 1.4;
+      font-size: 0.7em;
+      color: hsl(224, 23%, 55%);
+    }
+    #annual-plan{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 13em;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      background-color:  hsl(225, 100%, 98%);
+    }
+    #left-position{
+      display: flex;
+      align-items: center;
+    }
+    
+    #annual{
+      color: hsl(223, 47%, 23%);
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+      font-size: 0.7em;
+      font-weight: 900;
+      
+    }
+    #annual #price{
+      font-size: 1em;
+      font-weight: 500;
+      padding-top: 5px;
+      color: hsl(224, 23%, 55%);
+    }
+    #change{
+      font-size: 0.6em;
+      font-weight: 900;
+      color: hsl(245, 75%, 52%);
+      text-decoration: underline;
+      padding: 0;
+    }
+    #change:hover{
+      text-decoration: none;
+      opacity: 0.9;
+    }
+    button{
+      background-color:hsl(245, 75%, 52%) ;
+      padding: 10px;
+      width: 15rem;
+      color: hsl(0, 0%, 100%);
+      border: none;
+      border-radius: 8px;
+      font-size:0.6em;
+      font-weight: 500;
+      box-shadow:0 4px 20px 0 rgba(0, 0, 0, 0.4);
+
+    }
+    button:hover{
+      opacity: 0.7;
+    }
+    #cancel{
+      padding: 22px 15px 0px;
+      text-decoration: none;
+      font-size:0.6em;
+      font-weight: 700;
+      color: hsl(224, 23%, 55%);
+      
+    }
+    #cancel:hover{
+      font-weight: 900;
+      color:hsl(223, 47%, 23%);
+    }
+    @media (max-width:375px) {
+      #text{
+      width:15em;
+    }
+      #text h1{
+      font-size: 1.3em;
+    }
+    #text p{
+      line-height: 1.6;
+      font-size: 0.9em;
+      
+    }
+    #annual-plan{
+      width: 14em;
+      padding: 15px 11px 15px 11px;
+    }
+    #annual{
+      font-size: 0.9em;
+      font-weight: 900;
+      padding-left: 4px;
+      
+    }
+    #annual #price{
+      font-size: 1em;
+      padding-top: 5px;
+    }
+    #change{
+      padding: 0;
+      font-size: 0.8em;
+    }
+    #left-position img{
+      width: 40px;
+    }
+    button{
+      padding: 14px;
+      width: 15rem;
+      font-size:0.8em;
+      font-weight: 700;
+      
+
+    }
+    a{
+      font-size:0.9em;
+    }
+  }
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
