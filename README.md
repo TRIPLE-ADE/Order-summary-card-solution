@@ -8,18 +8,14 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-
+A frontend-mentor challenge on Order summary card component solution, Which involve building an interface for an Order summary card, making it responsive and interactive
 ### The challenge
 
 Users should be able to:
@@ -28,15 +24,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+
+
+![Mobile-design](./design/mobile-design.jpg)
+![Desktop-design](./design/desktop-design.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/TRIPLE-ADE/Order-summary-card-solution)
+- Live Site URL: [Add live site URL here](https://triple-ade.github.io/Order-summary-card-solution/)
 
-## My process
 
 ### Built with
 
@@ -44,30 +42,38 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+.body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center;
+      background-image:url(./images/pattern-background-desktop.svg); 
+      background-color: hsl(225, 100%, 94%);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size:100% 50%;
+      min-height: 100vh;
+      
+      
+    }
 ```
 
 ### Continued development
-
+- Responsiveness
+- media query
+- best unit for margin, padding, font-size, width
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [TripleA](https://triple-ade.github.io/Order-summary-card-solution/)
+- Frontend Mentor - [@TRIPLE-ADE](https://www.frontendmentor.io/profile/TRIPLE-ADE)
+- Twitter - [@Triple123A](https://www.twitter.com/Triple123A)
 
 
